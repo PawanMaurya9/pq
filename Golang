@@ -1,0 +1,38 @@
+// Define handler functions for each route
+
+func getProducts(w http.ResponseWriter, r *http.Request) {
+	// Implement logic to fetch products from the database
+}
+
+func getProduct(w http.ResponseWriter, r *http.Request) {
+	// Implement logic to fetch a specific product from the database
+}
+
+func registerUser(w http.ResponseWriter, r *http.Request) {
+	// Implement logic to register a new user
+}
+
+func loginUser(w http.ResponseWriter, r *http.Request) {
+	// Implement logic to authenticate a user and generate JWT token
+}
+
+func getCart(w http.ResponseWriter, r *http.Request) {
+	// Implement logic to fetch cart details for a user
+}
+
+func addToCart(w http.ResponseWriter, r *http.Request) {
+	// Implement logic to add items to the cart
+}
+
+func createOrder(w http.ResponseWriter, r *http.Request) {
+	// Implement logic to create a new order from the cart
+}
+
+func getOrder(w http.ResponseWriter, r *http.Request) {
+	// Implement logic to fetch a specific order by ID
+}
+
+// Implement other handlers as needed
+
+// Use JWT for authentication in handlers that require authentication
+
